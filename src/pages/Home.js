@@ -68,7 +68,7 @@ render(){
     <div className="content">
     <h2>Welcome</h2>
     <form onSubmit={this.getWeather}>
-        <h4>Write the name of the city that you want to know the weather</h4>
+        <h4>Write the name of the city where you want to know the weather</h4>
         <input type='text' name='city' placeholder='City' />&emsp;
         <button>Get weather</button>
     </form>
