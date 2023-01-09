@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Component } from "react";
+import "./Home.css";
 
 class Bored extends Component{
 
@@ -30,7 +31,7 @@ componentDidMount(){
 
 render(){
     return(
-    <div>
+    <div className="content">
         <p>Activity: {this.state.activity}</p>
         <p>Type: {this.state.type}</p>
         <p>Participants: {this.state.participants}</p>
